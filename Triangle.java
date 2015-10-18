@@ -2,10 +2,10 @@
  * Eine Klasse zum Erzeugen von Dreieck-Objekten. Ein Dreieck hat 3 Seiten a, b
  * und c die den folgenden Eigenschaften entsprechen muessen: Erstens, alle drei
  * Seiten muessen einen positiven Wert haben. Zweitens, die drei Seiten muessen
- * den folgenden Ungleichungen entsprechen: a < b+c, b< a+c, c < a+b.
+ * den folgenden Ungleichungen entsprechen: a &lt; b+c, b &lt; a+c, c &lt; a+b.
  * 
- * @author Agathe Merceron. (merceron@beuth-hochschule.de)
- * @version 1.01, 02/2011
+ * @author Oskar Borek. (f.borek@ostfalia.de)
+ * @version 1.01, 10/2015
  */
 public class Triangle {
     // Drei Attribute fuer die drei Seiten des Dreiecks
@@ -66,7 +66,7 @@ public class Triangle {
 	/**
 	 * Diese Methode summiert die drei Seiten des Dreiecks und gibt somit den Umfang aus.
 	 *
-	 * @return gibt den Umfang zurück
+	 * @return gibt den Umfang zurueck
 	*/
 	public float CalculatePerimeter(){		
 		return (a+b+c);		

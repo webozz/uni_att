@@ -1,8 +1,8 @@
 /**
  * Testprogramm fuer die Klasse Triangle.
  * 
- * @author Agathe Merceron. (merceron@beuth-hochschule.de)
- * @version 1.01, 24.02.2011
+ * @author Oskar Borek. (f.borek@ostfalia.de)
+ * @version 1.01, 10/2015
  */
 public class TriangleTest {
     /**
